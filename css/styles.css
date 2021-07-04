@@ -1,0 +1,113 @@
+/*/************/
+/* CSS reseter*/
+/**************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+001D4A Oxford blue
+#007991 teal blue
+#439A86 polished pine 
+#BCD8c1 cambridge blue
+#E9D985 flax
+#EAE3C9 beige
+*/
+
+header{
+    font-size: 35px; /*1*/
+    display: flex; /*2*/
+    background-color: #001D4A; /*3*/ 
+    justify-content: center; /*4*/
+    color: whitesmoke; /*5*/   
+}
+
+address{
+    font-size: 19px;
+    display: flex;
+    background-color:#007991;
+    justify-content: center;
+    color: whitesmoke;   
+}
+ img{
+    margin-top: 10px; /*6*/
+    margin-bottom: 10px; 
+    display: block; /*7*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; /*8*/
+}
+
+body{
+    font-style: oblique; /*9*/
+    background-color:#EAE3C9;
+    color: black; 
+}
+
+.titles{
+    padding-bottom: 9px;
+    margin-left: 8%; 
+    font-size: 28px;
+}
+
+.elCV{ 
+    padding: 6px; /*10*/
+    margin-left: 13%; 
+    font-size: 18px;
+}
+
+ footer{
+    display: flex;
+    background-color:#439A86;
+    justify-content: center;
+    color: whitesmoke; 
+ }
+
+ #octo{
+    margin-top: 10px;
+    width: 10%;   
+ }
